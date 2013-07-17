@@ -1,3 +1,4 @@
+"  自動インデント
 set autoindent
 " 行番号
 set number
