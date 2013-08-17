@@ -1,0 +1,12 @@
+# ignore all file
+*
+
+# ignore all dot file
+.*
+
+### management file ###
+!/.vimrc
+!/.vim/
+!/.gitignore
+!/.zshrc
+
