@@ -162,6 +162,7 @@ NeoBundle 'Shougo/neosnippet'
 NeoBundle 'jpalardy/vim-slime'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'snipMate'
+NeoBundle 'Lokaltog/vim-powerline'
 
 " JS
 NeoBundle 'JavaScript-syntax'
