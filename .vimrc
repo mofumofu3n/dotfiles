@@ -9,8 +9,6 @@ set expandtab
 set softtabstop=4
 " 自動インデント時のタブ数
 set shiftwidth=4
-" 自動インデント
-set autoindent
 " モード表示
 set showmode
 " 大文字小文字無視
@@ -193,3 +191,11 @@ syntax on
 " Settin Dict
 " --------------------------------------------
 au FileType javascript set dictionary+=$HOME/.vim/dict/node.dict
+
+
+" --------------------------------------------
+" Setting Python 
+" --------------------------------------------
+autocmd FileType python setlocal autoindent
+autocmd FileType python setlocal smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
+autocmd FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
