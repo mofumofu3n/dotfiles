@@ -51,3 +51,10 @@ compinit
 source ~/.nvm/nvm.sh
 #nvm use "v0.10.5"
 nvm use "v0.8.23"
+
+
+# rbenv
+eval "$(rbenv init -)"
+
+# gem path
+export PATH=$PATH:$HOME/.rbenv/versions/1.9.3-p286/bin
