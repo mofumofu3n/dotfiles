@@ -216,6 +216,9 @@ let g:NERDTreeMinimalUI=1
 let g:NERDTreeDirArrows=0
 let g:NERDTreeMouseMode=2
 
+" Tabular
+NeoBundle 'godlygeek/tabular'
+
 " JS
 NeoBundle 'JavaScript-syntax'
 NeoBundle 'vim-javascript'
