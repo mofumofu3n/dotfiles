@@ -184,6 +184,8 @@ NeoBundle 'jpalardy/vim-slime'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'snipMate'
 NeoBundle 'Lokaltog/vim-powerline'
+NeoBundle 'myusuf3/numbers.vim'
+nnoremap <C-r> :NumbersToggle<CR>
 
 " color-scheme
 NeoBundle 'altercation/solarized'
