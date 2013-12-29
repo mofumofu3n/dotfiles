@@ -60,4 +60,4 @@ nvm use "v0.8.23"
 eval "$(rbenv init -)"
 
 # gem path
-export PATH=$PATH:$HOME/.rbenv/versions/1.9.3-p286/bin
+export PATH=$PATH:$HOME/.rbenv/versions/1.9.3-p286/bin:/Applications/android-sdk-macosx/platform-tools
