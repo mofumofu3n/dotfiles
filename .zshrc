@@ -43,6 +43,9 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 #
 
+# alias
+alias javac 'javac -J-Dfile.encoding=UTF-8'
+
 #補完機能の強化
 autoload -U compinit
 compinit
