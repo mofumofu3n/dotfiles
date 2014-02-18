@@ -61,3 +61,4 @@ eval "$(rbenv init -)"
 
 # gem path
 export PATH=$PATH:$HOME/.rbenv/versions/1.9.3-p286/bin:/Applications/android-sdk-macosx/platform-tools
+export PATH=$PATH:$HOME/bin/gradle/bin
