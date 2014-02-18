@@ -242,6 +242,9 @@ NeoBundle 'html5.vim'
 " PHP
 NeoBundle 'PDV--phpDocumentor-for-Vim'
 
+" Markdown
+NeoBundle 'kannokanno/previm'
+NeoBundle 'tyru/open-browser.vim'
 
 ""NeoBundle 'https://bitbucket.org/kovisoft/slimv'
 
